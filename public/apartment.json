@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,   
+        "destination": "New Zealand",
+        "title": "Wanna Rewind? Plan this trip!",
+        "image": "/assets/Apartment images/zealandapart.jpg",
+        "price": "5500",
+        "description": "New Zealand: where the sheep outnumber the people, hobbits roam the hills, and nature decided to throw in every scenic wonder imaginable. It's a land where you can sip coffee in a hip city café in the morning, hike through lush rainforests by noon, and finish the day stargazing under the clearest skies on Earth. Adventure is practically the national sport, and even the birds (looking at you, kiwi) prefer walking over flying."
+    },
+
+    {
+        "id": 2,   
+        "destination": "Marlborough",
+        "title": "Bora Bora is that dream.",
+        "image": "/assets/Apartment images/boraapart.jpg",
+        "price": "5800",
+        "description": "Marlborough: the sun-soaked jewel of New Zealand where world-famous Sauvignon Blanc flows like water and vineyard views stretch as far as the eye can see. Its a place where you can start your day with a wine tasting, sail through the stunning Marlborough Sounds by lunch, and still have time for a sunset stroll through golden vineyards. With more sunshine than almost anywhere else in the country, Marlborough is where laid-back vibes meet fine dining, and every glass of wine comes with a side of breathtaking scenery."
+    },
+    {
+        "id": 3,   
+        "destination": "Papeete",
+        "title": "A glimpse of breathtaking scenery.",
+        "image": "/assets/Apartment images/papeete.webp",
+        "price": "5800",
+        "description": "Papeete: the vibrant heart of French Polynesia, where island life meets a dash of French flair. Picture a tropical paradise where colorful markets spill over with fresh fruit and flowers, while luxury yachts bob in turquoise waters nearby. By day, its all about exploring the bustling streets lined with boutiques, tasting local street food from the iconic roulottes, and diving into the islands rich culture. By night, the air fills with the rhythm of Tahitian drums, and the scent of tropical blooms lingers in the breeze. Its a city where paradise wears a charming, laid-back smile."
+    },
+    {
+        "id": 4,   
+        "destination": "France",
+        "title": "Pack up that lingerie and tour while feeling sexy.",
+        "image": "/assets/Apartment images/franceapart.jpg",
+        "price": "5800",
+        "description": "France: the land where every corner feels like a postcard and life is savored like a fine wine. From the lavender fields of Provence to the snow-capped peaks of the Alps, France is a place where culture, history, and cuisine come together in perfect harmony. Stroll through the romantic streets of Paris, where the Eiffel Tower sparkles by night, or lose yourself in the rustic charm of a countryside village, complete with fresh-baked baguettes and local cheese. Whether you're sipping espresso at a café, exploring ancient castles, or marveling at world-class art, France always has a certain je ne sais quoi that keeps you coming back for more."
+    },
+    {
+        "id": 5,   
+        "destination": "United Kingdom",
+        "title": "What is a trip with the best shopping malls?",
+        "image": "/assets/Apartment images/ukapart.jpg",
+        "price": "5800",
+        "description": "The UK: where centuries of history meet quirky traditions, and every weather forecast comes with a chance of rain. Its a place where ancient castles, rolling green hills, and cozy pubs feel right at home alongside cutting-edge cities like London, where Big Ben keeps watch over a melting pot of cultures. Whether you're exploring the rugged beauty of Scotlands Highlands, enjoying a seaside stroll in Cornwall, or indulging in afternoon tea with scones (cream first, or is it jam?), the UK offers a blend of royal charm, literary legends, and modern-day coolness—all wrapped in a perfectly British sense of humor."
+    },
+    {
+        "id": 6,   
+        "destination": "Barcelona",
+        "title": "Barcelona cruise.",
+        "image": "/assets/Apartment images/barcaapart.jpg",
+        "price": "5800",
+        "description": "Barcelona: a sun-kissed playground where Gaudís whimsical architecture meets vibrant street life and tantalizing tapas. Here, the streets are alive with the sounds of laughter and music, and every corner reveals a splash of color, from the mosaics of Park Güell to the bustling markets of La Boqueria. Stroll along the beach or sip sangria under the shade of palm trees, and youll find that time moves a little slower in this Mediterranean gem. With a rich tapestry of history, art, and culture, Barcelona invites you to dance through its streets and embrace the fiesta spirit—¡Olé!"
+    }
+]

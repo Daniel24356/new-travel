@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+body {
+  background-color: black;
+  color: rgba(245, 245, 245, 0.774);
+  font-family: "Roboto Slab", serif;
+}
+.cont {
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  border-radius: 8px;
+  background-image: url("../../assets/saudi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.699);
+  background-blend-mode: darken;
+  background-position: center;
+  padding: 50px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.cont h1{
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.three {
+  margin-top: 40px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+  padding: 40px;
+}
+.three .box {
+  display: flex;
+  align-items: center;
+  line-height: 1.7;
+  text-align: center;
+  flex-direction: column;
+}
+.three .box .icon {
+  font-size: 50px;
+  color: rgb(20, 143, 162) !important;
+}
+.three .box p {
+  font-size: 14px;
+}
+.three .box h3 {
+  margin: 8px 0px;
+}
+.three .box:nth-child(3) a {
+  text-decoration: none;
+  color: rgba(245, 245, 245, 0.774);
+}
+.map-container {
+  margin-top: 60px;
+  position: relative;
+}
+
+.map-container p {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 50px auto;
+  gap: 100px;
+}
+.container {
+  width: 350px;
+  height: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid rgb(20, 143, 162);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container form .descr {
+  font-weight: 500;
+  color: #e8e8e8;
+  margin-bottom: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs,
+textarea {
+  margin: 1em 0 1em 0;
+  width: 300px;
+  position: relative;
+}
+
+.inputs input,
+textarea {
+  font-size: 100%;
+  padding: 0.7em;
+  outline: none;
+  color: #e8e8e8;
+  border: none;
+  border-bottom: 2px solid #e8e8e8;
+  background: transparent;
+  border-radius: none;
+  width: 100%;
+  resize: none;
+}
+
+.inputs label {
+  font-size: 100%;
+  position: absolute;
+  left: 0;
+  color: #e8e8e8;
+  padding: 0.7em;
+  margin-left: 0.1em;
+  pointer-events: none;
+  transition: all 0.5s ease;
+  text-transform: uppercase;
+}
+
+.inputs :is(input:focus, input:valid) ~ label {
+  transform: translateY(-50%) scale(0.9);
+  margin: 0em;
+  padding: 0.4em;
+  background: transparent;
+}
+
+.inputs textarea:focus ~ label,
+.inputs textarea:valid ~ label {
+  transform: translateY(-50%) scale(0.9);
+  margin: 0em;
+  padding: 0.4em;
+  background: transparent;
+}
+
+.inputGroup :is(input:focus, input:valid) {
+  border-color: rgb(37, 37, 211);
+}
+
+.form button {
+  color: #e8e8e8;
+  font-size: 15px;
+  align-self: flex-start;
+  padding: 0.6em;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 50px;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.form button:before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e8e8e8;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.form button:hover:before {
+  opacity: 0.2;
+}
+
+.form button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgb(20, 143, 162);
+  border-radius: 5px;
+}
+.descr h2 {
+  margin-top: 30px;
+  color: rgb(20, 143, 162);
+}

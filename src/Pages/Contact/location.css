@@ -1,0 +1,12 @@
+.locate {
+  display: flex;
+  flex-direction: column;
+}
+.locate-text {
+  margin-bottom: 15px;
+  color: rgb(20, 143, 162);
+}
+.st {
+  font-size: 14px;
+  margin-bottom: 30px;
+}

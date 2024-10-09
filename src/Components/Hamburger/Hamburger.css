@@ -1,0 +1,194 @@
+
+.hamburger-menu {
+  position: relative;
+}
+
+/* .hamburger-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
+.hamburger-button span {
+  width: 2rem;
+  height: 0.25rem;
+  background: #333;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+.hamburger-button.open span:first-child {
+  transform: rotate(45deg);
+}
+
+.hamburger-button.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-button.open span:nth-child(3) {
+  transform: rotate(-45deg);
+} */
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0; /* Changed from left: 0 to right: 0 */
+  height: 100vh;
+  width: 300px;
+  background-color: black;
+  backdrop-filter: blur(3);
+  transform: translateX(100%); /* Changed from -100% to 100% */
+  transition: transform 0.3s ease-in-out;
+  padding-left: 40px;
+}
+
+.menu.open {
+  transform: translateX(0);
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 4rem; /* Add some top padding to avoid overlap with the button */
+}
+
+.menu li {
+  padding: 1rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.hamburger-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+  position: fixed;
+  top: 1rem;
+  right: 5rem;
+}
+.hamburger-button span {
+  width: 2rem;
+  height: 0.25rem;
+  background: #fff;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+#bar2{
+  transition-duration: .8s;
+}
+
+#bar1,#bar3 {
+  width: 70%;
+}
+
+.hamburger-button.open span {
+  position: absolute;
+  transition-duration: .5s;
+}
+
+.hamburger-button.open  #bar2 {
+  transform: scaleX(0);
+  transition-duration: .5s;
+}
+
+.hamburger-button.open #bar1 {
+  width: 100%;
+  transform: rotate(45deg);
+  transition-duration: .5s;
+}
+
+.hamburger-button.open  #bar3 {
+  width: 100%;
+  transform: rotate(-45deg);
+  transition-duration: .5s;
+}
+
+.hamburger-button.open {
+  transition-duration: .5s;
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 629px) {
+  .hamburger-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+    position: fixed;
+    top: 1rem;
+    right: 4rem;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .hamburger-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+    position: fixed;
+    top: 1rem;
+    right:2rem;
+  }
+}
+
+@media screen and (max-width: 422px) {
+  .hamburger-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+    position: fixed;
+    top: 1rem;
+    right:1rem;
+}
+}

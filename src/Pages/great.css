@@ -1,0 +1,332 @@
+.hero-great {
+    height: 420px;
+    margin-top: -50px;
+}
+
+.overlays {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(36, 36, 36, 0.663), rgb(21, 20, 20));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.overlays h1 {
+    font-size: 43px;
+}
+
+.overlays p {
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.explore-div {
+    margin-top: 70px;
+}
+
+.world-div div {
+    margin-top: 6px;
+}
+
+.world-div h1 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.world-div p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.locations-div {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.locations-div div {
+    width: 24.5%;
+    height: 410px;
+    border-radius: 8px;
+    transition: all ease-in-out .3s;
+    /* border: solid red; */
+    /* border: 1px solid gainsboro; */
+}
+
+.bck-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    /* color: white; */
+    font-size: 20px;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+.locations-div div:hover{
+    margin-top: -25px;
+    border: solid 1px rgba(20, 143, 162, 0.196);
+}
+
+.trans-txt {
+    color: rgb(224, 220, 220);
+    font-size: 23px;
+}
+.see-txt {
+    font-size: 14px;
+    color: rgb(224, 220, 220);
+}
+.box-all{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    /* align-items: center; */
+}
+.first-box {
+    width: 22.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.first-box div{
+    height: 350px;
+    width: 100%;
+    /* border: 1px solid gainsboro; */
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding-bottom:40px;
+    cursor: pointer;
+}
+.first-box div h1{
+    color: white;
+}
+.first-box div p{
+    color: white;
+}
+.second-box {
+    width: 30.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.second-box div{
+    height: 225px;
+    width: 100%;
+    /* border: 1px solid gainsboro; */
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding-bottom:40px ;
+    cursor: pointer;
+}
+.second-box div h1{
+    color: white;
+}
+.second-box div p{
+    color: white;
+}
+.third-box {
+    width: 22.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.third-box div{
+    height: 348px;
+    width: 100%;
+    /* border: 1px solid gainsboro; */
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding-bottom:40px;
+    cursor: pointer;
+}
+.third-box div h1{
+    color: white;
+}
+.third-box div p{
+    color: white;
+}
+.pop-txt{
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+.sec-gal{
+    margin-top: 40px;
+}
+.tour-box{
+  margin-top: 70px;
+}
+.tour-box h1{
+    color: white;
+    text-align: center;
+}
+.tour-all{
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 360px;
+    position: relative;
+}
+/* .tour-all div{
+    width: 235px;
+    height: 300px;
+    border: 1px solid gainsboro;
+} */
+.first-pos{
+    width: 19.5%;
+    height: 300px;
+    /* border: 1px solid rgba(220, 220, 220, 0.388); */
+    position: absolute;
+    left: 10.5%;
+    /* left: 125px; */
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 30px;
+}
+.first-pos:hover{
+    margin-top: 10px;
+    border: none;
+    /* box-shadow: 0px 0px 15px 1px rgba(220, 220, 220, 0.53); */
+}
+.first-pos p{
+    color: white;
+    font-size: 16px;
+}
+.sec-pos{
+    width: 19.5%;
+    height: 300px;
+    /* border: 1px solid rgba(220, 220, 220, 0.388); */
+    position: absolute;
+    /* left: 375px; */
+    left: 30.4%;
+    top: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+    display: flex;
+    justify-content: center; 
+     align-items: end;  
+    padding-bottom: 30px;
+}
+.sec-pos:hover{
+    margin-top: -10px;
+    border: none;
+    /* box-shadow: 0px 0px 15px 1px rgba(220, 220, 220, 0.53); */
+}
+.sec-pos p{
+    color: white;
+    font-size: 16px;
+}
+.third-pos{
+    width: 19.5%;
+    height: 300px;
+    /* border: 1px solid rgba(220, 220, 220, 0.388); */
+    position: absolute;
+    right: 30.1%;
+    /* right: 391px; */
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 30px;
+}
+.third-pos:hover{
+    margin-top: 10px;
+    border: none;
+    /* box-shadow: 0px 0px 15px 1px rgba(220, 220, 220, 0.53); */
+}
+.third-pos p{
+     color: white;
+     font-size: 16px;
+}
+.fourth-pos{
+    width: 19.5%;
+    height: 300px;
+    /* border: 1px solid rgba(220, 220, 220, 0.388); */
+    position: absolute;
+    right: 10.2%;
+    /* right: 140px; */
+    top: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 30px;
+}
+.fourth-pos:hover{
+    margin-top: -10px;
+    border: none;
+    /* box-shadow: 0px 0px 15px 1px rgba(220, 220, 220, 0.53); */
+}
+.fourth-pos p{
+    color: white;
+    font-size: 16px;
+}
+
+.accomodationDiv{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.accomodation{
+    width: 80%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.accom{
+    width: 100%;
+    height: 250px;
+    /* border: solid gainsboro; */
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+.dat1{
+    grid-column: span 2;
+}
+.dat2{
+    width: 95%;
+    height: 515px;
+    grid-row: span 2;
+}
+
+.over{
+    width: 80%;
+    height: 120px;
+    background-color: rgba(37, 37, 37, 0.507);
+}
+.link-acc{
+    color: white;
+}

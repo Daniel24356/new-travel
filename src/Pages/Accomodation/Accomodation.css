@@ -1,0 +1,115 @@
+.acc-hero{
+    height: 450px;
+    margin-top: -50px;
+}
+.overlayss{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.473), rgb(8, 8, 8));
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-top: 150px;
+    padding-left: 200px;
+    color: whitesmoke;
+    /* padding-top: 100px; */
+}
+.overlayss h1{
+    font-size: 42px;
+}
+.acc-div{
+    width: 55%;
+    height: 500px;
+}
+.acc-div img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.h-txt{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.hotel-extra{
+  margin-top: 6px;
+}
+.guest-div{
+    display: flex;
+    gap: 20px;
+}
+.guest-div p{
+    color: rgb(216, 213, 213);
+}
+.g-bor{
+    padding-right: 20px;
+    border-right: 2px solid white;
+}
+.room-det{
+    font-size: 15px;
+    color: white;
+    text-decoration: underline;
+}
+.acc-all{
+    display: flex;
+    gap: 30px;
+    padding: 0px 100px;
+}
+.country-dat h1{
+    color: white;
+    font-size: 38px;
+}
+.price-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.price-txt p{
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.price-txt h1{
+    color: white;
+    font-size:15px;
+}
+.cnt-more{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inn-box{
+    padding: 0px 100px;
+    padding-bottom: 60px;
+}
+.acc-txt{
+    display: flex;
+    gap: 25px;
+}
+.acc-txt p{
+    color: white;
+}
+.rev-txt{
+    text-decoration: underline;
+}
+.haul-txt{
+    text-decoration: underline;
+}
+.dis-txt{
+    text-decoration: line-through;
+    font-size: 15px;
+}
+.btn-total{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.btn-total button{
+    width: 130px;
+    height: 50px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}

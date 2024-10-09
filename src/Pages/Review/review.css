@@ -1,0 +1,160 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.con{
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  border-radius: 8px;
+  background-image: url("../../assets/saudi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.699);
+  background-blend-mode: darken;
+  background-position: center;
+  padding: 50px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.con .tex .nu {
+  font-size: 52px;
+  font-weight: bolder;
+}
+
+.button {
+  font-size: 16px;
+  padding: 16px 56px;
+  background-color: rgb(20, 143, 162);
+  color: #ffe3dc;
+  margin-top: 48px;
+  border-radius: 30px;
+  border: none;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.button:hover {
+  transform: translateY(-4px) scale(1.1);
+  background-color: #ffe3dc;
+  color: rgb(20, 143, 162);
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.question h2 {
+  font-size: 32px;
+}
+
+.three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 60px auto;
+  gap: 100px;
+}
+
+.three .box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.three .box .icons {
+  font-size: 52px;
+  color: rgb(20, 143, 162);
+}
+
+.three .box .text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.three .box .text h2 {
+  font-size: 30px;
+}
+
+.recent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 2rem;
+}
+.tx{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 20px;
+}
+.card {
+  border-radius: 10px;
+  border:1px solid rgb(20, 143, 162);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.imgcont {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.imgcont img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.imgcont img:hover {
+  transform: scale(1.1);
+}
+
+.card .text {
+  margin-top: 10px;
+}
+
+.card .text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.card .text p:first-of-type {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .three{
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 425px){
+  .cont .text .num{
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .cont .text{
+    text-align: center;
+  }
+}
